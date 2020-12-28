@@ -67,3 +67,9 @@ a:hover {
 title {
     font-style: italic;
 }
+
+form {
+    border-style: solid;
+    border-color: lightgray;
+
+}

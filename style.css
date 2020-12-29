@@ -1,11 +1,14 @@
 body {
     /*background-image: url(bitmoji.jpg);*/
     background-repeat: no-repeat;
-    background-size: auto;
+    
+    
 }
 
 a {
     margin-right: 30px;
+    font-family: 'Amiri', serif;
+    font-size: larger;
 }
 
 a:hover {
@@ -70,6 +73,38 @@ title {
 
 form {
     border-style: solid;
-    border-color: lightgray;
+    border-color: #17a2b8;
 
 }
+
+.card {
+    background-color:#17a2b8;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: -2rem;
+    box-shadow: 4px 4px 12px 2px rgba(black, 0.7);
+    transition: .2s;
+}
+
+.card {
+    display: flex;
+    
+    
+}
+
+.card:not(:first-child) {
+    margin-left: -4rem;
+}
+
+.card:hover {
+    transform: translateX(-7rem)
+    
+}
+
+.card:focus-within {
+    transform: translateX(-7rem)
+}
+
+
+}
+

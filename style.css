@@ -1,6 +1,6 @@
 body {
     background-repeat: no-repeat;
-    
+    background-color: #FFEBAA;
     
     
     
@@ -105,6 +105,10 @@ form {
 }
 
 .card:focus-within {
+    transform: translateX(-7rem)
+}
+
+.card:active {
     transform: translateX(-7rem)
 }
 

@@ -1,9 +1,6 @@
 body {
     background-repeat: no-repeat;
-    background-color: #FFEBAA;
-    
-    
-    
+    background-color: #FFEBAA; 
 }
 
 
@@ -111,6 +108,18 @@ form {
 .card:active {
     transform: translateX(-7rem)
 }
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    background-color: #17a2b8;
+    color: white;
+    bottom: 0;
+    height: 60px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: white;
+ }
 
 
 @media screen and (max-width: 600px) {

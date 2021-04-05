@@ -74,6 +74,8 @@ title {
 form {
     border-style: solid;
     border-color: #17a2b8;
+    padding: 2px;
+    margin-bottom: 5px;
 
 }
 
@@ -97,16 +99,16 @@ form {
 }
 
 .card:hover {
-    transform: translateX(-7rem)
+    transform: translateY(-7rem)
     
 }
 
 .card:focus-within {
-    transform: translateX(-7rem)
+    transform: translateY(-7rem)
 }
 
 .card:active {
-    transform: translateX(-7rem)
+    transform: translateY(-7rem)
 }
 
 footer {
